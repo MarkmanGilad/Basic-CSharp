@@ -73,6 +73,10 @@ namespace Basic_CSharp
                 Console.WriteLine(i);
             }
 
+            // זימון פעולות
+            method1();
+            Console.WriteLine(method4(3,7));
+
         }
 
         public static void method1 () 
