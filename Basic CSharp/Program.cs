@@ -28,7 +28,7 @@ namespace Basic_CSharp
             int num = int.Parse(Console.ReadLine());
 
 
-            // פעולות
+            // אופרנדים
             int n1 = 9, n2 = 4, n3;
             n3 = n1 / n2; // n3 = 2 שלם ללא שארית
             n3 = n1 % n2; // n3 = 1 השארית 
@@ -40,6 +40,11 @@ namespace Basic_CSharp
             s3 = s1 + " " + s2; // s3 = "Gilad Markman"
             s3 = "Gilad has " + n2 + "Children"; //s3="Gilad has 4 Children"
 
+            // Random
+            Random rnd = new Random();
+            int min = -3, max = 13;
+            int r1 = rnd.Next(min, max);  // rnadom between -3 to 12
+            int r2 = rnd.Next(10);        // random between 0 to 9
 
 
             // תנאי
