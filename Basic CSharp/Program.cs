@@ -75,6 +75,27 @@ namespace Basic_CSharp
 
         }
 
-        
+        public static void method1 () 
+        {
+            Console.WriteLine("Void method without parameters");
+        }
+
+        public static void method2(int num1, double d2)
+        {
+            Console.WriteLine(num1 * d2);
+            Console.WriteLine("Void method with parameters");
+        }
+
+        public static int method3(int num1, int num2)
+        {
+            Console.WriteLine("method with parameters that return integer");
+            return num1 * num2;
+        }
+
+        public static string method4(int num1, int num2)
+        {
+            return "method with parameters that return integer" + (num1 + num2);
+            
+        }
     }
 }
