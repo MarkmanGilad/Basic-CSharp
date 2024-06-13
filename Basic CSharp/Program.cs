@@ -13,8 +13,11 @@ namespace Basic_CSharp
         static void Main(string[] args)
         {
             // משתנים
+            int gilad, yoav, n3;
             int n = 5;
+            
             double d = 10.5;
+            
             bool b = true;
             string s = "Hello world";
             char ch = 'c';
@@ -29,7 +32,7 @@ namespace Basic_CSharp
             double r = double.Parse(Console.ReadLine());
 
             // אופרנדים
-            int n1 = 9, n2 = 4, n3;
+            int n1 = 9, n2 = 4;
             n3 = n1 / n2; // n3 = 2 שלם ללא שארית
             n3 = n1 % n2; // n3 = 1 השארית 
 
@@ -66,6 +69,7 @@ namespace Basic_CSharp
             while (i < 10) 
             {
                 Console.WriteLine(i);
+                i++; // i = i + 1;
             }
 
             for (int j=0; j < 10; j++)
