@@ -26,7 +26,7 @@ namespace Basic_CSharp
 
             string str = Console.ReadLine();
             int num = int.Parse(Console.ReadLine());
-
+            double r = double.Parse(Console.ReadLine());
 
             // אופרנדים
             int n1 = 9, n2 = 4, n3;
